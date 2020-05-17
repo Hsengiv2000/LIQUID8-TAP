@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_visualisation"
+        android:icon="@drawable/ic_sports"
+        android:title="@string/title_launch" />
+
+    <item
+        android:id="@+id/navigation_community"
+        android:icon="@drawable/ic_multimedia"
+        android:title="@string/title_community" />
+
+    <item
+        android:id="@+id/navigation_transaction"
+        android:icon="@drawable/ic_business"
+        android:title="@string/transact" />
+
+    <item
+        android:id="@+id/navigation_savings"
+        android:icon="@drawable/ic_saved"
+        android:title="@string/title_savings" />
+
+    <item
+        android:id="@+id/navigation_insights"
+        android:icon="@drawable/ic_insights"
+        android:title="@string/title_insights" />
+
+</menu>

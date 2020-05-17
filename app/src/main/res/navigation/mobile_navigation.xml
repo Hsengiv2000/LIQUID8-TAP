@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_visualisation">
+
+    <fragment
+        android:id="@+id/navigation_launch"
+        android:name="com.example.taptrial.ui.launch.LaunchFragment"
+        android:label="@string/title_launch"
+        tools:layout="@layout/fragment_launch" />
+
+    <fragment
+        android:id="@+id/navigation_visualisation"
+        android:name="com.example.taptrial.ui.visualisation.Visualisationfragment"
+        android:label="@string/title_visualisation"
+        tools:layout="@layout/fragment_visualisation" />
+
+    <fragment
+        android:id="@+id/navigation_community"
+        android:name="com.example.taptrial.ui.community.CommunityFragment"
+        android:label="@string/title_community"
+        tools:layout="@layout/fragment_community" />
+
+    <fragment
+    android:id="@+id/navigation_transaction"
+    android:name="com.example.taptrial.ui.transaction.TransactionFragment"
+    android:label="@string/transact"
+    tools:layout="@layout/fragment_transaction" />
+
+    <fragment
+        android:id="@+id/navigation_savings"
+        android:name="com.example.taptrial.ui.saving.SavingFragment"
+        android:label="@string/title_savings"
+        tools:layout="@layout/fragment_savings" />
+
+    <fragment
+        android:id="@+id/navigation_insights"
+        android:name="com.example.taptrial.ui.insight.InsightFragment"
+        android:label="@string/title_insights"
+        tools:layout="@layout/fragment_insights" />
+
+</navigation>

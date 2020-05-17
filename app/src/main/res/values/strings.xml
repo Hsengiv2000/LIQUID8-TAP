@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TapTrial</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="transact">Transact</string>
+    <string name="title_visualise">Dream</string>
+    <string name="title_community">Meet</string>
+    <string name="title_savings">Save</string>
+    <string name="title_insights">Reflect</string>
+    <string name="Tap">Tap</string>
+    <string name="title_launch">Dream</string>
+    <string name="title_visualisation">Dream</string>
+</resources>
